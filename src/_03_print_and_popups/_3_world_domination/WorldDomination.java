@@ -6,6 +6,13 @@ import javax.swing.JOptionPane;
 public class WorldDomination {
 	
 	public static void main(String[] args) {
+		String ruler = JOptionPane.showInputDialog("Do you know how to write code");
+		if (ruler.equals("yes")) {
+			System.out.println("You rule the world");
+		}
+		else {
+			System.out.println("Sign up for classes at The League");
+		}
 		
 		// 1. Ask the user if they know how to write code.
 

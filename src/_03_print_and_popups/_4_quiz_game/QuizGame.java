@@ -2,13 +2,17 @@ package _03_print_and_popups._4_quiz_game;
 
 public class QuizGame {
 	public static void main(String[] args) {
-		
+		int(score1) = 0;
+		String q1 = JOptionPane.showInputDialog("What is the year");
+		if (q1 == 2023) {
+			
+		}
 		// Create a variable to hold the user's score. Set it equal to zero. 
 		
 		// ASK A QUESTION AND CHECK THE ANSWER
 		
 				// 2.  Ask the user a question 
-				
+				dd
 				// 3.  Use an if statement to check if their answer is correct
 				
 				// 4.  if the user's answer was correct, add one to their score 
